@@ -1,0 +1,21 @@
+{
+  "name": "test_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@improbable-eng/grpc-web": "^0.12.0",
+    "google-protobuf": "^3.11.4",
+    "edgify-client": "git+https://bitbucket.org/pixoneye/edgify-agent-npm.git"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
